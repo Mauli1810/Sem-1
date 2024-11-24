@@ -5,14 +5,14 @@ int main() {
     float total, percentage;
     char division[20];
 
-    // Input marks of five subjects
+    
     printf("Enter the marks of five subjects:\n");
     scanf("%f %f %f %f %f", &subject1, &subject2, &subject3, &subject4, &subject5);
 
-    // Calculate total marks
+    
     total = subject1 + subject2 + subject3 + subject4 + subject5;
 
-    // Calculate percentage
+    
     percentage = (total / 500) * 100;
 
     // Determine division based on percentage
